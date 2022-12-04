@@ -1,25 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+
+import { Navbar } from "./components/Navbar";
+import { Map } from "./components/Map";
+import { BannerModal } from "./components/modals/BannerModal";
+
+import mainContext, { defaultState } from "./contexts/modalContext";
+
+import "./styles/main.scss";
 
 function App() {
+  const [countryId, setCountryId] = useState(defaultState.countryId);
+  const [showBannerModal, setShowBannerModal] = useState(
+    defaultState.showBannerModal
+  );
+
+  const updateCountryId = (id: string) => {
+    setCountryId(id);
+  };
+
+  const updateShowBannerModal = (bool: boolean) => {
+    if (bool === showBannerModal) return;
+    setShowBannerModal(bool);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <mainContext.Provider
+      value={{
+        countryId,
+        showBannerModal,
+        updateCountryId,
+        updateShowBannerModal,
+      }}
+    >
+      <div className="App">
+        {showBannerModal && <BannerModal country={countryId} />}
+        <Navbar />
+        <Map />
+      </div>
+    </mainContext.Provider>
   );
 }
 
