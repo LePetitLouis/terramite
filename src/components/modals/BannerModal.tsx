@@ -1,77 +1,75 @@
 import { useEffect, useState } from "react";
 
 import { StoneCard } from "../cards/StoneCard";
+import AliceCarousel from "react-alice-carousel";
 
 import { DB, IStones } from "../../datas/db";
 
-export const BannerModal = ({ country } : { country: string }) => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [maxSlides, setMaxSlides] = useState(0);
+export const BannerModal = ({ country }: { country: string }) => {
   const [stones, setStones] = useState<IStones[]>([]);
 
-  const [isShowPrevButton, setIsShowPrevButton] = useState(false)
-  const [isShowNextButton, setIsShowNextButton] = useState(false)
-  
-  useEffect(() => {
-    const getStoneByCountry = DB.countries[country]
-    if (!getStoneByCountry) return setStones([])
+  const [isShowPrevButton, setIsShowPrevButton] = useState(false);
+  const [isShowNextButton, setIsShowNextButton] = useState(false);
 
-    const stoneAvailable: IStones[] = getStoneByCountry.map((stoneShow: string) => {
-      return (DB.stones.filter(stone => stone.image.toLowerCase() === stoneShow.toLowerCase())).shift() as IStones
-    })
-    setStones(stoneAvailable)
-  }, [country])
+  const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    1024: { items: 3 },
+  };
 
   useEffect(() => {
-    setMaxSlides(stones.length - 3)
-  }, [stones])
+    const getStoneByCountry = DB.countries[country];
+    if (!getStoneByCountry) return setStones([]);
 
-  useEffect(() => {
-    setIsShowPrevButton(!(maxSlides < 0 || currentSlide === 0))
-    setIsShowNextButton(!(maxSlides < 0 || currentSlide === maxSlides))
-  }, [currentSlide, maxSlides])
-
-  const handlePrev = () => {
-    setCurrentSlide(currentSlide - 1)
-    console.log(currentSlide)
-
-    const slides = document.querySelectorAll('.slide')
-    slides.forEach((slide: any) => {
-      slide.style.transform = `translateX(${-310 * currentSlide}px)`
-    })
-  }
-
-  const handleNext = () => {
-    setCurrentSlide(currentSlide + 1)
-    console.log(currentSlide)
-
-    const slides = document.querySelectorAll('.slide')
-    slides.forEach((slide: any) => {
-      slide.style.transform = `translateX(${-310 * currentSlide}px)`
-    })
-  }
+    const stoneAvailable: IStones[] = getStoneByCountry.map(
+      (stoneShow: string) => {
+        return DB.stones
+          .filter(
+            (stone) => stone.image.toLowerCase() === stoneShow.toLowerCase()
+          )
+          .shift() as IStones;
+      }
+    );
+    setStones(stoneAvailable);
+  }, [country]);
 
   return (
     <section className="banner-container">
       <section className="banner-wrapper">
         {stones.length ? (
-          <>
-            <div className="banner-wrapper__arrow-left">
-              { isShowPrevButton && <img src="icons/CaretCircleLeft.svg" className="icon" alt="icon arrow left" onClick={handlePrev} /> }
-            </div>
-
-            <div className="banner-wrapper__container">
-              <div className="banner-wrapper__content">
-                {stones.map(stone => {
-                  return (<StoneCard key={stone.name} picture={stone.image} name={stone.name} description={stone.description} />)
-                })}
-              </div>
-            </div>
-
-            <div className="banner-wrapper__arrow-right">
-              { isShowNextButton && <img src="icons/CaretCircleRight.svg" className="icon" alt="icon arrow right" onClick={handleNext} /> }
-            </div>
-          </>
+          <div className="banner-wrapper__container">
+            <AliceCarousel
+              mouseTracking
+              touchTracking
+              disableDotsControls
+              responsive={responsive}
+              paddingLeft={100}
+              renderPrevButton={() => (
+                <img
+                  src="icons/CaretCircleLeft.svg"
+                  className="icon"
+                  alt="icon arrow left"
+                />
+              )}
+              renderNextButton={() => (
+                <img
+                  src="icons/CaretCircleRight.svg"
+                  className="icon"
+                  alt="icon arrow right"
+                />
+              )}
+              items={stones.map((stone) => {
+                return (
+                  <StoneCard
+                    key={stone.name}
+                    picture={stone.image}
+                    name={stone.name}
+                    description={stone.description}
+                  />
+                );
+              })}
+            />
+          </div>
         ) : (
           <h1>Aucune donnees pour l'instant</h1>
         )}
