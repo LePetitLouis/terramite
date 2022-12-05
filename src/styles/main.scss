@@ -178,6 +178,25 @@ a {
       grid-gap: 40px;
       overflow-x: scroll;
     }
+
+    &__content-nothing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 0;
+
+      .icon {
+        width: 65px;
+      }
+
+      .title {
+        color: $black-base;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
   }
 }
 

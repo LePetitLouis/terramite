@@ -84,22 +84,27 @@ export const DB: IDatas = {
       image: "onyx",
       name: "Onyx",
       description: "Si vous traversez une période difficile, la pierre onyx peut vous aider à..."
+    },
+    {
+      image: "gold",
+      name: "Or",
+      description: "Connectée au chakra du plexus solaire, la pierre or natif permet de se remplir d’énergies positives et de..."
     }
   ],
 
   countries: {
-    "AU": ["saphir", "diamant", "emeraude", "citrine", "amethyst", "turquoise", "opale", "topaze", "tourmaline"], // Australie
+    "AU": ["saphir", "diamant", "emeraude", "citrine", "amethyst", "turquoise", "opale", "topaze", "tourmaline", "gold"], // Australie
     "MM": ["saphir", "rubis", "jade", "topaze", "tourmaline"], // Birmanie
     "LK": ["saphir", "rubis", "topaze", "tourmaline"], // Sri lanka
     "TH": ["saphir", "rubis", "tourmaline"], // Thailande
-    "CA": ["diamant", "jade"], // Canada
+    "CA": ["diamant", "jade", "gold"], // Canada
     "AO": ["diamant", "tourmaline"], // Angola
-    "ZA": ["diamant", "emeraude"], // Afrique du sud
+    "ZA": ["diamant", "emeraude", "gold"], // Afrique du sud
     "BW": ["diamant"], // Botswana
     "CG": ["diamant"], // Congo
-    "RU": ["diamant", "emeraude", "jade", "aquamarine", "citrine", "amethyst", "topaze", "tourmaline"], // Russie
+    "RU": ["diamant", "emeraude", "jade", "aquamarine", "citrine", "amethyst", "topaze", "tourmaline", "gold"], // Russie
     "AT": ["emeraude"], // Autriche
-    "BR": ["emeraude", "jade", "aquamarine", "citrine", "amethyst", "ambre", "opale", "topaze", "tourmaline", "onyx"], // Brésil
+    "BR": ["emeraude", "jade", "aquamarine", "citrine", "amethyst", "ambre", "opale", "topaze", "tourmaline", "onyx", "gold"], // Brésil
     "CO": ["emeraude"],  // Colombie
     "IN": ["emeraude", "tourmaline", "onyx"], // Inde
     "MG": ["emeraude", "aquamarine", "citrine", "amethyst", "topaze", "tourmaline", "onyx"], // Madagascar
@@ -107,9 +112,9 @@ export const DB: IDatas = {
     "PK": ["emeraude", "aquamarine"], // Pakistan
     "TZ": ["emeraude", "rubis", "turquoise", "tourmaline"], // Tanzanie
     "ZM": ["emeraude"], // Zambie
-    "US": ["emeraude", "jade", "turquoise", "opale", "topaze", "tourmaline", "onyx"], // Etats-Unis
+    "US": ["emeraude", "jade", "turquoise", "opale", "topaze", "tourmaline", "onyx", "gold"], // Etats-Unis
     "VN": ["rubis"], // Vietnam
-    "CN": ["jade", "turquoise"], // Chine
+    "CN": ["jade", "turquoise", "gold"], // Chine
     "JP": ["jade", "opale", "topaze"], // Japon
     "NZ": ["jade"], // Nouvelle Zelande
     "GT": ["jade", "opale"], // Guatemala
@@ -119,9 +124,10 @@ export const DB: IDatas = {
     "FR": ["turquoise"], // France
     "IR": ["turquoise"], // Iran
     "IL": ["turquoise"], // Israel
-    "PE": ["opale"], // Perou
+    "PE": ["opale", "gold"], // Perou
     "HN": ["opale"], // Honduras
     "ZW": ["topaze", "tourmaline"], // Rhodésie
     "MZ": ["tourmaline"], // Mozambique
+    "GF": ["gold"], // Guyanne Française
   }
 }

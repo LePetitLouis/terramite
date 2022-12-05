@@ -11,7 +11,10 @@ export const StonesModal = ({ country }: { country: string }) => {
   const [stones, setStones] = useState<IStones[]>([]);
   const [countryName, setCountryName] = useState<string>("");
 
-  const regionNames = useMemo(() => new Intl.DisplayNames(["fr"], { type: "region" }), [])
+  const regionNames = useMemo(
+    () => new Intl.DisplayNames(["fr"], { type: "region" }),
+    []
+  );
 
   const { updateShowBannerModal } = useContext(mainContext);
 
@@ -32,11 +35,12 @@ export const StonesModal = ({ country }: { country: string }) => {
     setStones(stoneAvailable);
   }, [country, regionNames]);
 
-  return (
+  return stones.length ? (
     <BaseModal
       showModal={true}
       position="middle"
       title={countryName}
+      className="modal-wrapper__content"
       children={stones.map((stone) => {
         return (
           <StoneCard
@@ -46,6 +50,20 @@ export const StonesModal = ({ country }: { country: string }) => {
           />
         );
       })}
+      closeModal={() => updateShowBannerModal(false)}
+    />
+  ) : (
+    <BaseModal
+      showModal={true}
+      position="middle"
+      title={countryName}
+      className="modal-wrapper__content-nothing"
+      children={
+        <>
+          <img src="images/nothing.png" alt="nothing icon" className="icon" />
+          <h1 className="title">Aucune données pour le moment...</h1>
+        </>
+      }
       closeModal={() => updateShowBannerModal(false)}
     />
   );

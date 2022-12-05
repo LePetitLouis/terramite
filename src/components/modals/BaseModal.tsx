@@ -3,12 +3,14 @@ export const BaseModal = ({
   showModal,
   position,
   title,
+  className,
   closeModal,
 }: {
   children: any;
   showModal: boolean;
-  position: string;
+  position?: string;
   title: string;
+  className?: string;
   closeModal: () => void;
 }) => {
   return (
@@ -23,7 +25,7 @@ export const BaseModal = ({
                 <img className="modal-wrapper__header__icon" src="icons/X.svg" alt="icon close" />
               </div>
             </div>
-            <div className="modal-wrapper__content">
+            <div className={className}>
               {children}
             </div>
           </div>
