@@ -28,10 +28,6 @@ a {
     color: $white;
     background: $black-base;
   }
-
-  .banner-container {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
 }
 
 // HEADER
@@ -64,74 +60,6 @@ a {
 
     &.is-active {
       fill: $green;
-    }
-  }
-}
-
-// BANNER MODAL
-.banner-container {
-  width: 90%;
-  margin: 0 70px;
-  max-height: 220px;
-  position: fixed;
-  bottom: 40px;
-  z-index: 10;
-
-  display: flex;
-  align-items: flex-end;
-  font-family: 'Twemoji Country Flags', Lato, sans-serif;
-  transition: all 0.3s ease;
-
-  background: #000000c4;
-  border-radius: 20px;
-  overflow: hidden;
-
-  .banner-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-
-    &__container {
-      display: flex;
-      overflow-y: hidden;
-      position: relative;
-    }
-
-    &__content {
-      display: flex;
-      gap: 60px;
-    }
-
-    &__arrow-left, &__arrow-right {
-      width: 150px;
-    }
-
-    .icon {
-      cursor: pointer;
-      margin: 0 30px;
-    }
-
-    .alice-carousel__prev-btn {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: auto;
-    }
-
-    .alice-carousel__next-btn {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: auto;
-      display: flex;
-      align-items: center;
     }
   }
 }
@@ -191,6 +119,7 @@ a {
 
   .modal-mask {
     width: 100%;
+    height: 100vh;
     background-color: #131616;
     opacity: 40%;
     position: absolute;
@@ -209,6 +138,7 @@ a {
     transition: all 0.3s ease;
     margin: auto;
     max-height: 80%;
+    z-index: 12;
 
     &__header {
       text-align: center;
