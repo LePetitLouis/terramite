@@ -1,5 +1,5 @@
 @import './variables.scss';
-@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+@import "react-multi-carousel/lib/styles.css";
 
 html,
 body {
@@ -28,6 +28,10 @@ a {
   body {
     color: $white;
     background: $black-base;
+  }
+
+  .banner-container {
+    background-color: rgba(255, 255, 255, 0.9);
   }
 }
 
@@ -79,7 +83,7 @@ a {
   font-family: 'Twemoji Country Flags', Lato, sans-serif;
   transition: all 0.3s ease;
 
-  background: rgba(255, 255, 255, 0.9);
+  background: #000000c4;
   border-radius: 20px;
   overflow: hidden;
 
@@ -117,6 +121,7 @@ a {
       height: 100%;
       display: flex;
       align-items: center;
+      justify-content: center;
       width: auto;
     }
 
@@ -140,7 +145,7 @@ a {
   align-content: center;
   width: 250px;
   max-width: 250px;
-  margin: 36px 0;
+  margin: 20px auto;
   transition: all 0.5s;
 
   &__image {
@@ -173,9 +178,108 @@ a {
   }
 }
 
+// BASE MODAL
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  max-height: -webkit-fill-available;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+
+  .modal-mask {
+    width: 100%;
+    background-color: #131616;
+    opacity: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .modal-wrapper {
+    background-color: $white;
+    width: 70%;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    margin: auto;
+    max-height: 80%;
+
+    &__header {
+      text-align: center;
+      border-bottom: 1px solid $grey;
+      position: relative;
+
+      &__title {
+        color: $black-base;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      &__content-icon {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $black-base;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      &__icon {
+        width: 15px;
+      }
+    }
+
+    &__content {
+      padding: 28px 32px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 40px;
+      overflow-x: scroll;
+    }
+  }
+}
+
+// RESPONSIVE MOBILE
 @media only screen and (max-width: 600px) {
+  .modal-container { 
+    .modal-wrapper {
+      width: 90%;
+    }
+  }
   .banner-container {
     width: 95%;
     margin: 0 10px;
+  }
+
+  .modal-container {
+    .modal-wrapper {
+      &__content {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+// RESPONSIVE TABLET
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .modal-container {
+    .modal-wrapper {
+      &__content {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
   }
 }

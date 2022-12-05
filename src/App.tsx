@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Navbar } from "./components/Navbar";
 import { Map } from "./components/Map";
-import { BannerModal } from "./components/modals/BannerModal";
+import { StonesModal } from "./components/modals/StonesModal";
 
 import mainContext, { defaultState } from "./contexts/modalContext";
 
@@ -33,7 +33,7 @@ function App() {
       }}
     >
       <div className="App">
-        {showBannerModal && <BannerModal country={countryId} />}
+        {showBannerModal && <StonesModal country={countryId}/>}
         <Navbar />
         <Map />
       </div>
