@@ -44,6 +44,7 @@ export const StonesModal = ({ country }: { country: string }) => {
       children={stones.map((stone) => {
         return (
           <StoneCard
+            key={stone.name}
             name={stone.name}
             picture={stone.image}
             description={stone.description}
