@@ -35,7 +35,7 @@ export const Map = () => {
       });
 
       // Mobile event
-      path.addEventListener("touchstart", (event: any) => {
+      path.addEventListener("touchend", (event: any) => {
         const id = event.target.id;
         updateCountryId(id);
         updateShowBannerModal(true);
@@ -68,7 +68,7 @@ export const Map = () => {
         detectPinchGesture
         detectAutoPan={false}
         scaleFactorMax={2}
-        scaleFactorMin={0.4}
+        scaleFactorMin={1}
         disableDoubleClickZoomWithToolAuto
         onChangeTool={(nextTool) => setTool(nextTool)}
         toolbarProps={{ position: "none" }}
