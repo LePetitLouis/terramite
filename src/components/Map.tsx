@@ -26,7 +26,6 @@ export const Map = () => {
     paths.forEach((path) => {
       // Desktop event
       path.addEventListener("click", (event: any) => {
-        console.log('CLICK !!!!!')
         const id = event.target.id;
         updateCountryId(id);
         updateShowBannerModal(true);

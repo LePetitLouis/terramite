@@ -1,0 +1,100 @@
+{
+  "stones": {
+    "not-data": "ຍັງບໍ່ມີຂໍ້ມູນ...",
+    "diamant": {
+      "image": "diamant",
+      "name": "ເພັດ",
+      "description": "ເພັດແມ່ນ, ບໍ່ຕ້ອງສົງໃສ, ຫນຶ່ງໃນແຮ່ທາດທີ່ນິຍົມທີ່ສຸດໃນໂລກ."
+    },
+    "emeraude": {
+      "image": "emeraude",
+      "name": "Emerald",
+      "description": "ກ້ອນຫີນ emerald symbolizes ທາງດ້ານຮ່າງກາຍ, ອຸປະກອນການແລະການຟື້ນຟູທາງວິນຍານ."
+    },
+    "rubis": {
+      "image": "rubis",
+      "name": "Ruby",
+      "description": "Le rubis est une pierre qui symbolise le courage, la loyauté, et le feu ardent."
+    },
+    "saphir": {
+      "image": "saphir",
+      "name": "ໄພລິນ",
+      "description": "ເພັດພອຍເປັນຫີນທີ່ບັນເທົາຄວາມໂກດ, ຄວາມໂສກເສົ້າແລະຄວາມຮູ້ສຶກທີ່ບໍ່ດີທັງຫມົດທີ່ ..."
+    },
+    "jade": {
+      "image": "jade",
+      "name": "Jade",
+      "description": "ສັນຍາລັກຂອງຄວາມຊື່ສັດ, ສົມບັດສິນແລະຄວາມຍຸຕິທໍາ, ຫີນ jade ພັດທະນາຄວາມທົນທານຕໍ່ຜູ້ໃສ່ຂອງຕົນ."
+    },
+    "aquamarine": {
+      "image": "aquamarine",
+      "name": "Aquamarine",
+      "description": "ມີຊື່ສຽງຍ້ອນຄວາມງາມອັນຍິ່ງໃຫຍ່ ແລະ ສີຟ້າທີ່ງົດງາມຂອງມັນ..."
+    },
+    "citrine": {
+      "image": "citrine",
+      "name": "Citrine",
+      "description": "Citrine ເປັນແກນແສງຕາເວັນທີ່ດົນໃຈຄວາມສຸກຂອງຊີວິດແລະຄວາມອຸດົມສົມບູນ."
+    },
+    "amethyst": {
+      "image": "amethyst",
+      "name": "ອະເມທິສ",
+      "description": "ສັນຍາລັກຂອງຄວາມເຂັ້ມແຂງ, ສະຕິປັນຍາແລະຄວາມຖ່ອມຕົນ, ຫີນ amethyst ແມ່ນ ..."
+    },
+    "ambre": {
+      "image": "ambre",
+      "name": "ອໍາພັນ",
+      "description": "ອໍາພັນເປັນຫີນທີ່ມີພະລັງທີ່ຊ່ວຍໃຫ້ທ່ານສາມາດຢືນຢັນຕົວເອງແລະເພີ່ມຄວາມຫມັ້ນໃຈຕົນເອງ."
+    },
+    "turquoise": {
+      "image": "turquoise",
+      "name": "ສີຟ້າຂຽວ",
+      "description": "ເປັນທີ່ຮູ້ຈັກກັນດີສໍາລັບຄຸນສົມບັດປິ່ນປົວຂອງມັນ, ຫີນສີຂຽວສີຟ້າເປັນຕົວແທນຂອງນ້ໍາ, ແສງຕາເວັນແລະ ..."
+    },
+    "opale": {
+      "image": "opale",
+      "name": "ໂອປາ",
+      "description": "ໂອປາເປັນແກນທີ່ດີເລີດທີ່ຈະຟື້ນຟູການໄຫຼວຽນຂອງພະລັງງານທີ່ດີໃນຮ່າງກາຍຂອງເຈົ້າ"
+    },
+    "topaze": {
+      "image": "topaze",
+      "name": "ທາປາສ",
+      "description": "ທາປາສເປັນກ້ອນຫີນທີ່ຊ່ວຍໃຫ້ທ່ານສາມາດເຕີມເງິນໄດ້ທັງທາງດ້ານຮ່າງກາຍແລະ ..."
+    },
+    "tourmaline": {
+      "image": "tourmaline",
+      "name": "Tourmaline",
+      "description": "ໃນ lithotherapy, ພະລັງງານຂອງແຮ່ທາດນີ້ບໍ່ພຽງແຕ່ມີອິດທິພົນໃນທາງບວກຫຼາຍຕໍ່ ..."
+    },
+    "onyx": {
+      "image": "onyx",
+      "name": "ນິນ",
+      "description": "ຖ້າເຈົ້າຜ່ານຜ່າຄວາມຫຍຸ້ງຍາກລຳບາກ, ຫີນ ນິນ ສາມາດຊ່ວຍເຈົ້າໄດ້..."
+    },
+    "gold": {
+      "image": "gold",
+      "name": "ຄໍາ",
+      "description": "ເຊື່ອມ​ຕໍ່​ກັບ Chakra plexus ແສງ​ຕາ​ເວັນ​, ກ້ອນ​ຫີນ​ຄໍາ​ພື້ນ​ເມືອງ​ທີ່​ເຕັມ​ໄປ​ດ້ວຍ​ພະ​ລັງ​ງານ​ທາງ​ບວກ​ແລະ ..."
+    },
+    "marbre": {
+      "image": "marbre",
+      "name": "ຫິນອ່ອນ",
+      "description": "ກ່ຽວຂ້ອງກັບການຕໍ່ອາຍຸໃຫມ່, ຫີນຫິນອ່ອນສ້າງຄວາມສະດວກໃນການຕັດສິນໃຈແລະຊຸກຍູ້ການປ່ຽນແປງ."
+    },
+    "quartz": {
+      "image": "quartz",
+      "name": "Quartz",
+      "description": "ສ່ວນໃຫຍ່ຂອງເວລາ, quartz ແມ່ນໃຊ້ເພື່ອຂະຫຍາຍພະລັງງານຂອງ ..."
+    },
+    "cristal": {
+      "image": "cristal",
+      "name": "ໄປເຊຍກັນ",
+      "description": "ເປັນເອກະລັກໃນປະເພດຂອງມັນ, ກ້ອນຫີນໄປເຊຍກັນແມ່ນສາມາດຮັບ, emitting ແລະຂະຫຍາຍ..."
+    },
+    "tanzanite": {
+      "image": "tanzanite",
+      "name": "Tanzanite",
+      "description": "Tanzanite ເປັນຫີນທີ່ສົ່ງເສີມຄວາມສູງທາງວິນຍານແລະຄວາມຍິ່ງໃຫຍ່ ..."
+    }
+  }
+}

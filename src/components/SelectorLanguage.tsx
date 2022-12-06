@@ -18,13 +18,17 @@ export const SelectorLanguage = () => {
         setLang(Language.ES);
         i18n.changeLanguage(Language.ES);
         break;
+      case Language.LA:
+        setLang(Language.LA);
+        i18n.changeLanguage(Language.LA);
+        break;
       case Language.FR:
       default:
         setLang(Language.FR);
         i18n.changeLanguage(Language.FR);
         break;
     }
-    setShowLanguageSelector(false)
+    setShowLanguageSelector(false);
   };
 
   const handleLanguageSelector = () => {
@@ -43,30 +47,20 @@ export const SelectorLanguage = () => {
 
       {showLanguageSelector && (
         <ul className="language-selector__select">
-          <li>
-            <img
-              className={`language-selector__flag ${lang === Language.FR ? 'blur' : ''}`}
-              src="images/fr.png"
-              alt="french flag"
-              onClick={() => changeLanguage(Language.FR)}
-            />
-          </li>
-          <li>
-            <img
-              className={`language-selector__flag ${lang === Language.EN ? 'blur' : ''}`}
-              src="images/en.png"
-              alt="united states flag"
-              onClick={() => changeLanguage(Language.EN)}
-            />
-          </li>
-          <li>
-            <img
-              className={`language-selector__flag ${lang === Language.ES ? 'blur' : ''}`}
-              src="images/es.png"
-              alt="spain flag"
-              onClick={() => changeLanguage(Language.ES)}
-            />
-          </li>
+          {Object.values(Language).map((language) => {
+            return (
+              <li>
+                <img
+                  className={`language-selector__flag ${
+                    language === lang ? "blur" : ""
+                  }`}
+                  src={`images/${language}.png`}
+                  alt="french flag"
+                  onClick={() => changeLanguage(language)}
+                />
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>
