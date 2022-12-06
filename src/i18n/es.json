@@ -1,0 +1,100 @@
+{
+  "stones": {
+    "not-data": "Aún no hay datos...",
+    "diamant": {
+      "image": "diamant",
+      "name": "Diamante",
+      "description": "El diamante es, sin duda, uno de los minerales más populares del mundo."
+    },
+    "emeraude": {
+      "image": "emeraude",
+      "name": "Esmeralda",
+      "description": "La piedra esmeralda simboliza la regeneración física, material y espiritual."
+    },
+    "rubis": {
+      "image": "rubis",
+      "name": "Rubí",
+      "description": "El rubí es una piedra que simboliza el coraje, la lealtad y el fuego ardiente."
+    },
+    "saphir": {
+      "image": "saphir",
+      "name": "Zafiro",
+      "description": "El zafiro es una piedra que alivia la ira, la tristeza y todos los sentimientos negativos que..."
+    },
+    "jade": {
+      "image": "jade",
+      "name": "Jade",
+      "description": "Un símbolo de honestidad, moralidad y justicia, la piedra de jade desarrolla tolerancia en su portador."
+    },
+    "aquamarine": {
+      "image": "aquamarine",
+      "name": "Aguamarina",
+      "description": "Reconocido por su gran belleza y por su magnífico color azul..."
+    },
+    "citrine": {
+      "image": "citrine",
+      "name": "Citrino",
+      "description": "El citrino es una piedra solar que inspira alegría de vivir y abundancia."
+    },
+    "amethyst": {
+      "image": "amethyst",
+      "name": "Amatista",
+      "description": "Símbolo de fuerza, sabiduría y humildad, la piedra amatista es un..."
+    },
+    "ambre": {
+      "image": "ambre",
+      "name": "Ámbar",
+      "description": "El ámbar es una piedra energizante que te permite afirmarte y fortalecer la confianza en ti mismo."
+    },
+    "turquoise": {
+      "image": "turquoise",
+      "name": "Turquesa",
+      "description": "Muy conocida por sus propiedades curativas, la piedra turquesa representa el agua, el sol y..."
+    },
+    "opale": {
+      "image": "opale",
+      "name": "Ópalo",
+      "description": "El ópalo es una excelente piedra para restaurar la buena circulación de energías en tu cuerpo."
+    },
+    "topaze": {
+      "image": "topaze",
+      "name": "Topacio",
+      "description": "El topacio es una piedra que te permite recargar, tanto física como..."
+    },
+    "tourmaline": {
+      "image": "tourmaline",
+      "name": "Turmalina",
+      "description": "En litoterapia, el poder de este mineral no solo influye muy positivamente en..."
+    },
+    "onyx": {
+      "image": "onyx",
+      "name": "Ónix",
+      "description": "Si estás pasando por un momento difícil, la piedra de ónix te puede ayudar..."
+    },
+    "gold": {
+      "image": "gold",
+      "name": "Oro",
+      "description": "Conéctate al chakra del plexo solar, la piedra de oro nativo se llena de energías positivas y..."
+    },
+    "marbre": {
+      "image": "marbre",
+      "name": "Mármol",
+      "description": "Asociada a la renovación, la piedra de mármol facilita la toma de decisiones y favorece el cambio."
+    },
+    "quartz": {
+      "image": "quartz",
+      "name": "Cuarzo",
+      "description": "La mayoría de las veces, el cuarzo se usa para amplificar el poder de..."
+    },
+    "cristal": {
+      "image": "cristal",
+      "name": "Cristal",
+      "description": "Único en su género, el cristal de roca es capaz de recibir, emitir y amplificar."
+    },
+    "tanzanite": {
+      "image": "tanzanite",
+      "name": "Tanzanita",
+      "description": "La tanzanita es una piedra que promueve la elevación espiritual y la grandeza..."
+    }
+  }
+}

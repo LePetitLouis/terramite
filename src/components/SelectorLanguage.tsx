@@ -14,6 +14,10 @@ export const SelectorLanguage = () => {
         setLang(Language.EN);
         i18n.changeLanguage(Language.EN);
         break;
+      case Language.ES:
+        setLang(Language.ES);
+        i18n.changeLanguage(Language.ES);
+        break;
       case Language.FR:
       default:
         setLang(Language.FR);
@@ -53,6 +57,14 @@ export const SelectorLanguage = () => {
               src="images/en.png"
               alt="united states flag"
               onClick={() => changeLanguage(Language.EN)}
+            />
+          </li>
+          <li>
+            <img
+              className={`language-selector__flag ${lang === Language.ES ? 'blur' : ''}`}
+              src="images/es.png"
+              alt="spain flag"
+              onClick={() => changeLanguage(Language.ES)}
             />
           </li>
         </ul>

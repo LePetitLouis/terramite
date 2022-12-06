@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { Language } from "./enums/Language";
 import translationEN from './i18n/en.json';
 import translationFR from './i18n/fr.json';
+import translationES from './i18n/es.json'
  
 let defaultLanguage = Language.FR;
  
@@ -14,6 +15,9 @@ const resources = {
   },
   fr: {
     translation: translationFR
+  },
+  es: {
+    translation: translationES
   }
 };
  
