@@ -1,15 +1,18 @@
-import { useContext } from "react"
+import { useContext } from "react";
 
-import modalContext from "../contexts/modalContext"
+import { SelectorLanguage } from "./SelectorLanguage";
+
+import modalContext from "../contexts/modalContext";
 
 export const Navbar = () => {
-  const { updateShowBannerModal } = useContext(modalContext)
+  const { updateShowBannerModal } = useContext(modalContext);
 
   return (
     <header className="header" onClick={() => updateShowBannerModal(false)}>
-      <section>
+      <section className="header__content">
         <h1 className="header__title">Terramite</h1>
+        <SelectorLanguage />
       </section>
     </header>
-  )
-}
+  );
+};

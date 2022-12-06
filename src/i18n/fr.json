@@ -1,0 +1,100 @@
+{
+  "stones": {
+    "not-data": "Aucune données pour le moment...",
+    "diamant": {
+      "image": "diamant",
+      "name": "Diamant",
+      "description": "Le diamant est, sans aucun doute, l’un des minéraux les plus populaires du monde."
+    },
+    "emeraude": {
+      "image": "emeraude",
+      "name": "Emeraude",
+      "description": "La pierre émeraude symbolise la régénération physique, matérielle et spirituelle."
+    },
+    "rubis": {
+      "image": "rubis",
+      "name": "Rubis",
+      "description": "Le rubis est une pierre qui symbolise le courage, la loyauté, et le feu ardent."
+    },
+    "saphir": {
+      "image": "saphir",
+      "name": "Saphir",
+      "description": "Le saphir est une pierre qui apaise la colère, la tristesse et tous les sentiments négatifs qui vous..."
+    },
+    "jade": {
+      "image": "jade",
+      "name": "Jade",
+      "description": "Symbole d’honnêteté, de moralité et de justice, la pierre jade développe la tolérance chez son porteur."
+    },
+    "aquamarine": {
+      "image": "aquamarine",
+      "name": "Aigue Marine",
+      "description": "Réputée pour sa grande beauté et pour sa magnifique couleur bleue..."
+    },
+    "citrine": {
+      "image": "citrine",
+      "name": "Citrine",
+      "description": "La citrine est une pierre solaire qui inspire la joie de vivre et l’abondance."
+    },
+    "amethyst": {
+      "image": "amethyst",
+      "name": "Amethyst",
+      "description": "Symbole de force, de sagesse et d’humilité, la pierre améthyste est une..."
+    },
+    "ambre": {
+      "image": "ambre",
+      "name": "Ambre",
+      "description": "L’ambre est une pierre énergisante qui permet de s’affirmer et de renforcer la confiance en soi."
+    },
+    "turquoise": {
+      "image": "turquoise",
+      "name": "Turquoise",
+      "description": "Très connue pour ses vertus curatives, la pierre turquoise représente l’eau, le soleil et..."
+    },
+    "opale": {
+      "image": "opale",
+      "name": "Opale",
+      "description": "L’opale est une excellente pierre pour rétablir la bonne circulation des énergies dans votre corps"
+    },
+    "topaze": {
+      "image": "topaze",
+      "name": "Topaze",
+      "description": "La topaze est une pierre qui permet de se recharger, tant sur le plan physique que..."
+    },
+    "tourmaline": {
+      "image": "tourmaline",
+      "name": "Tourmaline",
+      "description": "En lithothérapie, la puissance de ce minéral a non seulement une influence très positive sur le..."
+    },
+    "onyx": {
+      "image": "onyx",
+      "name": "Onyx",
+      "description": "Si vous traversez une période difficile, la pierre onyx peut vous aider à..."
+    },
+    "gold": {
+      "image": "gold",
+      "name": "Or",
+      "description": "Connectée au chakra du plexus solaire, la pierre or natif permet de se remplir d’énergies positives et de..."
+    },
+    "marbre": {
+      "image": "marbre",
+      "name": "Marbre",
+      "description": "Associée au renouveau, la pierre marbre facilite la prise de décisions et encourage le changement."
+    },
+    "quartz": {
+      "image": "quartz",
+      "name": "Quartz",
+      "description": "La plupart du temps, le quartz est utilisé pour amplifier le pouvoir des.."
+    },
+    "cristal": {
+      "image": "cristal",
+      "name": "Cristal",
+      "description": "Unique en son genre, la pierre cristal de roche est capable de recevoir, d’émettre et d’amplifier les.."
+    },
+    "tanzanite": {
+      "image": "tanzanite",
+      "name": "Tanzanite",
+      "description": "La tanzanite est une pierre qui favorise l’élévation spirituelle et la grandeur..."
+    }
+  }
+}

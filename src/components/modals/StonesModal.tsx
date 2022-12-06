@@ -1,6 +1,7 @@
 import { useContext, useEffect, useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 
-import { DB, IStones } from "../../datas/db";
+import { DB } from "../../datas/db";
 import { StoneCard } from "../cards/StoneCard";
 
 import mainContext from "../../contexts/modalContext";
@@ -8,12 +9,13 @@ import mainContext from "../../contexts/modalContext";
 import { BaseModal } from "./BaseModal";
 
 export const StonesModal = ({ country }: { country: string }) => {
-  const [stones, setStones] = useState<IStones[]>([]);
+  const { t , i18n} = useTranslation()
+  const [stones, setStones] = useState<string[]>([]);
   const [countryName, setCountryName] = useState<string>("");
 
   const regionNames = useMemo(
-    () => new Intl.DisplayNames(["fr"], { type: "region" }),
-    []
+    () => new Intl.DisplayNames([i18n.language], { type: "region" }),
+    [i18n]
   );
 
   const { updateShowBannerModal } = useContext(mainContext);
@@ -23,16 +25,7 @@ export const StonesModal = ({ country }: { country: string }) => {
     const getStoneByCountry = DB.countries[country];
     if (!getStoneByCountry) return setStones([]);
 
-    const stoneAvailable: IStones[] = getStoneByCountry.map(
-      (stoneShow: string) => {
-        return DB.stones
-          .filter(
-            (stone) => stone.image.toLowerCase() === stoneShow.toLowerCase()
-          )
-          .shift() as IStones;
-      }
-    );
-    setStones(stoneAvailable);
+    setStones(getStoneByCountry);
   }, [country, regionNames]);
 
   return stones.length ? (
@@ -44,10 +37,10 @@ export const StonesModal = ({ country }: { country: string }) => {
       children={stones.map((stone) => {
         return (
           <StoneCard
-            key={stone.name}
-            name={stone.name}
-            picture={stone.image}
-            description={stone.description}
+            key={stone}
+            name={t(`stones.${stone}.name`)}
+            picture={t(`stones.${stone}.image`)}
+            description={t(`stones.${stone}.description`)}
           />
         );
       })}
@@ -62,7 +55,7 @@ export const StonesModal = ({ country }: { country: string }) => {
       children={
         <>
           <img src="images/nothing.png" alt="nothing icon" className="icon" />
-          <h1 className="title">Aucune données pour le moment...</h1>
+          <h1 className="title">{t('stones.not-data')}</h1>
         </>
       }
       closeModal={() => updateShowBannerModal(false)}

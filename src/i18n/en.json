@@ -1,0 +1,100 @@
+{
+  "stones": {
+    "not-data": "No data yet...",
+    "diamant": {
+      "image": "diamant",
+      "name": "Diamond",
+      "description": "Diamond is, without a doubt, one of the most popular minerals in the world."
+    },
+    "emeraude": {
+      "image": "emeraude",
+      "name": "Emerald",
+      "description": "The emerald stone symbolizes physical, material and spiritual regeneration."
+    },
+    "rubis": {
+      "image": "rubis",
+      "name": "Ruby",
+      "description": "Ruby is a stone that symbolizes courage, loyalty, and blazing fire."
+    },
+    "saphir": {
+      "image": "saphir",
+      "name": "Sapphire",
+      "description": "Sapphire is a stone that soothes anger, sadness and all the negative feelings that..."
+    },
+    "jade": {
+      "image": "jade",
+      "name": "Jade",
+      "description": "A symbol of honesty, morality and justice, the jade stone develops tolerance in its wearer."
+    },
+    "aquamarine": {
+      "image": "aquamarine",
+      "name": "Aquamarine",
+      "description": "Renowned for its great beauty and for its magnificent blue color..."
+    },
+    "citrine": {
+      "image": "citrine",
+      "name": "Citrine",
+      "description": "Citrine is a solar stone that inspires joy of life and abundance."
+    },
+    "amethyst": {
+      "image": "amethyst",
+      "name": "Amethyst",
+      "description": "A symbol of strength, wisdom and humility, the amethyst stone is a..."
+    },
+    "ambre": {
+      "image": "ambre",
+      "name": "Amber",
+      "description": "Amber is an energizing stone that allows you to assert yourself and strengthen self-confidence."
+    },
+    "turquoise": {
+      "image": "turquoise",
+      "name": "Turquoise",
+      "description": "Very well known for its healing properties, the turquoise stone represents water, the sun and..."
+    },
+    "opale": {
+      "image": "opale",
+      "name": "Opal",
+      "description": "Opal is an excellent stone to restore the good circulation of energies in your body."
+    },
+    "topaze": {
+      "image": "topaze",
+      "name": "Topaz",
+      "description": "Topaz is a stone that allows you to recharge, both physically and..."
+    },
+    "tourmaline": {
+      "image": "tourmaline",
+      "name": "Tourmaline",
+      "description": "In lithotherapy, the power of this mineral not only has a very positive influence on..."
+    },
+    "onyx": {
+      "image": "onyx",
+      "name": "Onyx",
+      "description": "If you are going through a difficult time, the onyx stone can help you..."
+    },
+    "gold": {
+      "image": "gold",
+      "name": "Gold",
+      "description": "Connect to the solar plexus chakra, the native gold stone fills with positive energies and..."
+    },
+    "marbre": {
+      "image": "marbre",
+      "name": "Marbre",
+      "description": "Associated with renewal, marble stone facilitates decision-making and encourages change."
+    },
+    "quartz": {
+      "image": "quartz",
+      "name": "Quartz",
+      "description": "Most of the time, quartz is used to amplify the power of..."
+    },
+    "cristal": {
+      "image": "cristal",
+      "name": "Crystal",
+      "description": "Unique in its kind, rock crystal stone is capable of receiving, emitting and amplifying..."
+    },
+    "tanzanite": {
+      "image": "tanzanite",
+      "name": "Tanzanite",
+      "description": "Tanzanite is a stone that promotes spiritual elevation and greatness..."
+    }
+  }
+}

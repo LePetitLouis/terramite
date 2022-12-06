@@ -6,6 +6,8 @@ import { StonesModal } from "./components/modals/StonesModal";
 
 import mainContext, { defaultState } from "./contexts/modalContext";
 
+import './i18n'
+
 import "./styles/main.scss";
 
 function App() {
