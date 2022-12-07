@@ -4,6 +4,8 @@ import { Navbar } from "./components/Navbar";
 import { Map } from "./components/Map";
 import { StonesModal } from "./components/modals/StonesModal";
 
+import { Analytics } from '@vercel/analytics/react';
+
 import mainContext, { defaultState } from "./contexts/modalContext";
 
 import './i18n'
@@ -39,6 +41,7 @@ function App() {
         <Navbar />
         <Map />
       </div>
+      <Analytics />
     </mainContext.Provider>
   );
 }
