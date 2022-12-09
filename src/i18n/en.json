@@ -1,4 +1,24 @@
 {
+  "commun": {
+    "welcome": "Hi to you ! Here's how to use Terramite",
+    "tips": {
+      "touch": {
+        "image": "tap",
+        "name": "Click/Tap",
+        "description": "Click/Tap on a country to see the stones mined there."
+      },
+      "zoom": {
+        "image": "zoom-out",
+        "name": "Zoom",
+        "description": "Zoom on the map to be able to click on a less visible country."
+      },
+      "view": {
+        "image": "view",
+        "name": "Discover",
+        "description": "Discover the different deposits of each country in the world."
+      }
+    }
+  },
   "stones": {
     "not-data": "No data yet...",
     "diamant": {

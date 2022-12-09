@@ -1,4 +1,24 @@
 {
+  "commun": {
+    "welcome": "Hola ! He aquí cómo usar Terramite",
+    "tips": {
+      "touch": {
+        "image": "tap",
+        "name": "Hacer clic/Tocar",
+        "description": "Haga clic/toque en un país para ver las piedras extraídas allí."
+      },
+      "zoom": {
+        "image": "zoom-out",
+        "name": "Zoom",
+        "description": "Haga zoom en el mapa para poder hacer clic en un país menos visible."
+      },
+      "view": {
+        "image": "view",
+        "name": "Descubrir",
+        "description": "Descubre los diferentes yacimientos de cada país del mundo."
+      }
+    }
+  },
   "stones": {
     "not-data": "Aún no hay datos...",
     "diamant": {

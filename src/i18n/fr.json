@@ -1,4 +1,24 @@
 {
+  "commun": {
+    "welcome": "Salut à toi ! Voici comment utiliser Terramite",
+    "tips": {
+      "touch": {
+        "image": "tap",
+        "name": "Cliquer/Toucher",
+        "description": "Clique/Touche sur un pays pour voir les pierres qui y sont minées."
+      },
+      "zoom": {
+        "image": "zoom-out",
+        "name": "Zoomer",
+        "description": "Zoom sur la carte pour pouvoir cliquer sur un pay moins visible."
+      },
+      "view": {
+        "image": "view",
+        "name": "Découvrir",
+        "description": "Découvre les differents gisements de chaque pays du monde."
+      }
+    }
+  },
   "stones": {
     "not-data": "Aucune données pour le moment...",
     "diamant": {
