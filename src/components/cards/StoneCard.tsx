@@ -4,6 +4,7 @@ export const StoneCard = ({
   description,
 }: {
   picture: string;
+  
   name: string;
   description: string;
 }) => {
