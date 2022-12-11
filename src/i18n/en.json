@@ -115,6 +115,61 @@
       "image": "tanzanite",
       "name": "Tanzanite",
       "description": "Tanzanite is a stone that promotes spiritual elevation and greatness..."
+    },
+    "peridot": {
+      "image": "peridot",
+      "name": "Peridot",
+      "description": "The peridot stone improves self-confidence, reduces stress and chases away negative feelings such as..."
+    },
+    "garnet": {
+      "image": "garnet",
+      "name": "Garnet",
+      "description": "Garnet is a stone that brings joy, courage, strength and..."
+    },
+    "zircon": {
+      "image": "zircon",
+      "name": "Zircon",
+      "description": "In lithotherapy, the Zircon stone is known for its many virtues. Indeed, it is a stone..."
+    },
+    "alexandrite": {
+      "image": "alexandrite",
+      "name": "Alexandrite",
+      "description": "It helps to preserve the proper functioning of the heart, in particular by fighting..."
+    },
+    "moonstone": {
+      "image": "moonstone",
+      "name": "Moonstone",
+      "description": "Very feminine, the moonstone is the symbol of Aphrodite, goddess of..."
+    },
+    "pearl": {
+      "image": "pearl",
+      "name": "Pearl",
+      "description": "Associated with the feminine spirit and the moon, the pearl represents purity,..."
+    },
+    "lapis-lazuli": {
+      "image": "lapis-lazuli",
+      "name": "Lapis-Lazuli",
+      "description": "Lapis lazuli is a stone that promotes self-confidence and communication. Thanks to..."
+    },
+    "aventurine": {
+      "image": "aventurine",
+      "name": "Aventurine",
+      "description": "Aventurine is a revitalizing stone that represents freedom of spirit and thirst..."
+    },
+    "amazonite": {
+      "image": "amazonite",
+      "name": "Amazonite",
+      "description": "As beautiful as turquoise blue sea water, amazonite is a powerful..."
+    },
+    "dioptaze": {
+      "image": "dioptaze",
+      "name": "Dioptase",
+      "description": "Dioptase is a real stone of support and recovery, especially for the heart."
+    },
+    "rhodonite": {
+      "image": "rhodonite",
+      "name": "Rhodonite",
+      "description": "Recommended for teenagers, rhodonite stone stimulates learning and allows..."
     }
   }
 }

@@ -115,6 +115,61 @@
       "image": "tanzanite",
       "name": "Tanzanita",
       "description": "La tanzanita es una piedra que promueve la elevación espiritual y la grandeza..."
+    },
+    "peridot": {
+      "image": "peridot",
+      "name": "Peridoto",
+      "description": "La piedra de peridoto mejora la confianza en uno mismo, reduce el estrés y ahuyenta sentimientos negativos como..."
+    },
+    "garnet": {
+      "image": "garnet",
+      "name": "Granate",
+      "description": "El granate es una piedra que aporta alegría, coraje, fuerza y..."
+    },
+    "zircon": {
+      "image": "zircon",
+      "name": "Circón",
+      "description": "En litoterapia, la piedra Circón es conocida por sus múltiples virtudes. Efectivamente, es una piedra..."
+    },
+    "alexandrite": {
+      "image": "alexandrite",
+      "name": "Alejandrita",
+      "description": "Ayuda a preservar el buen funcionamiento del corazón, en particular combatiendo..."
+    },
+    "moonstone": {
+      "image": "moonstone",
+      "name": "Piedra Lunar",
+      "description": "Muy femenina, la piedra lunar es el símbolo de Afrodita, diosa de..."
+    },
+    "pearl": {
+      "image": "pearl",
+      "name": "Perla",
+      "description": "Asociada con el espíritu femenino y la luna, la perla representa pureza,..."
+    },
+    "lapis-lazuli": {
+      "image": "lapis-lazuli",
+      "name": "Lapislázuli",
+      "description": "El lapislázuli es una piedra que promueve la confianza en uno mismo y la comunicación. Gracias a..."
+    },
+    "aventurine": {
+      "image": "aventurine",
+      "name": "Aventurina",
+      "description": "La aventurina es una piedra revitalizante que representa la libertad de espíritu y la sed..."
+    },
+    "amazonite": {
+      "image": "amazonite",
+      "name": "Amazonita",
+      "description": "Tan hermosa como el agua de mar azul turquesa, la amazonita es un poderoso..."
+    },
+    "dioptaze": {
+      "image": "dioptaze",
+      "name": "Dioptasa",
+      "description": "La dioptasa es una verdadera piedra de apoyo y recuperación, especialmente para el corazón."
+    },
+    "rhodonite": {
+      "image": "rhodonite",
+      "name": "Rodonita",
+      "description": "Recomendada para adolescentes, la piedra rodonita estimula el aprendizaje y permite..."
     }
   }
 }

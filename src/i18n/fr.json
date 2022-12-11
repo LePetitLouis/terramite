@@ -104,17 +104,72 @@
     "quartz": {
       "image": "quartz",
       "name": "Quartz",
-      "description": "La plupart du temps, le quartz est utilisé pour amplifier le pouvoir des.."
+      "description": "La plupart du temps, le quartz est utilisé pour amplifier le pouvoir des..."
     },
     "cristal": {
       "image": "cristal",
       "name": "Cristal",
-      "description": "Unique en son genre, la pierre cristal de roche est capable de recevoir, d’émettre et d’amplifier les.."
+      "description": "Unique en son genre, la pierre cristal de roche est capable de recevoir, d’émettre et d’amplifier les..."
     },
     "tanzanite": {
       "image": "tanzanite",
       "name": "Tanzanite",
       "description": "La tanzanite est une pierre qui favorise l’élévation spirituelle et la grandeur..."
+    },
+    "peridot": {
+      "image": "peridot",
+      "name": "Peridot",
+      "description": "La pierre péridot améliore la confiance en soi, réduit le stress et chasse les sentiments négatifs tel..."
+    },
+    "garnet": {
+      "image": "garnet",
+      "name": "Grenat",
+      "description": "Le grenat est une pierre qui apporte de la joie, du courage, de la force et de..."
+    },
+    "zircon": {
+      "image": "zircon",
+      "name": "Zircon",
+      "description": "En lithothérapie, la pierre Zircon est connue pour ses nombreuses vertus. En effet, c’est une pierre..."
+    },
+    "alexandrite": {
+      "image": "alexandrite",
+      "name": "Alexandrite",
+      "description": "Elle aide à préserver le bon fonctionnement du cœur, en luttant notamment..."
+    },
+    "moonstone": {
+      "image": "moonstone",
+      "name": "Pierre de Lune",
+      "description": "Très féminine, la pierre de lune est le symbole d’Aphrodite, déesse de..."
+    },
+    "pearl": {
+      "image": "pearl",
+      "name": "Perle",
+      "description": "Associée à l’esprit féminin et la lune, la perle représente la pureté, la..."
+    },
+    "lapis-lazuli": {
+      "image": "lapis-lazuli",
+      "name": "Lapis-Lazuli",
+      "description": "Le lapis lazuli est une pierre qui favorise la confiance en soi et la communication. Grâce à..."
+    },
+    "aventurine": {
+      "image": "aventurine",
+      "name": "Aventurine",
+      "description": "L’aventurine est une pierre revitalisante qui représente la liberté d’esprit et la soif..."
+    },
+    "amazonite": {
+      "image": "amazonite",
+      "name": "Amazonite",
+      "description": "Aussi belle qu’une eau de mer bleue turquoise, l’amazonite est une puissante pierre de..."
+    },
+    "dioptaze": {
+      "image": "dioptaze",
+      "name": "Dioptase",
+      "description": "La dioptase est une véritable pierre de soutien et de rétablissement, notamment pour le cœur."
+    },
+    "rhodonite": {
+      "image": "rhodonite",
+      "name": "Rhodonite",
+      "description": "Recommandée pour les adolescents, la pierre rhodonite stimule l’apprentissage et permet..."
     }
   }
 }

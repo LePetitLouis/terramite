@@ -115,6 +115,61 @@
       "image": "tanzanite",
       "name": "Tanzanite",
       "description": "Tanzanite ເປັນຫີນທີ່ສົ່ງເສີມຄວາມສູງທາງວິນຍານແລະຄວາມຍິ່ງໃຫຍ່ ..."
+    },
+    "peridot": {
+      "image": "peridot",
+      "name": "Peridot",
+      "description": "ຫີນ peridot ປັບປຸງຄວາມຫມັ້ນໃຈຕົນເອງ, ຫຼຸດຜ່ອນຄວາມກົດດັນແລະໄລ່ຄວາມຮູ້ສຶກທີ່ບໍ່ດີເຊັ່ນ: ..."
+    },
+    "garnet": {
+      "image": "garnet",
+      "name": "Garnet",
+      "description": "Garnet ແມ່ນຫີນທີ່ນໍາເອົາຄວາມສຸກ, ຄວາມກ້າຫານ, ຄວາມເຂັ້ມແຂງແລະ ..."
+    },
+    "zircon": {
+      "image": "zircon",
+      "name": "Zircon",
+      "description": "ໃນ lithotherapy, ຫີນ Zircon ແມ່ນເປັນທີ່ຮູ້ຈັກສໍາລັບຄຸນງາມຄວາມດີຫຼາຍ. ແທ້ຈິງແລ້ວ, ມັນເປັນຫີນ ..."
+    },
+    "alexandrite": {
+      "image": "alexandrite",
+      "name": "ອາເລັກຊານເດີ",
+      "description": "ມັນຊ່ວຍຮັກສາການເຮັດວຽກທີ່ຖືກຕ້ອງຂອງຫົວໃຈ, ໂດຍສະເພາະການຕໍ່ສູ້ກັບ ..."
+    },
+    "moonstone": {
+      "image": "moonstone",
+      "name": "Moonstone",
+      "description": "ຜູ້ຍິງຫຼາຍ, Moonstone ແມ່ນສັນຍາລັກຂອງ Aphrodite, goddess ຂອງ ..."
+    },
+    "pearl": {
+      "image": "pearl",
+      "name": "ໄຂ່ມຸກ",
+      "description": "ກ່ຽວ​ພັນ​ກັບ​ຈິດ​ວິນ​ຍານ​ຂອງ​ແມ່​ຍິງ​ແລະ​ດວງ​ຈັນ​, ໄຂ່​ມຸກ​ສະ​ແດງ​ໃຫ້​ເຫັນ​ຄວາມ​ບໍ​ລິ​ສຸດ​, ..."
+    },
+    "lapis-lazuli": {
+      "image": "lapis-lazuli",
+      "name": "Lapis-Lazuli",
+      "description": "Lapis lazuli ແມ່ນຫີນທີ່ສົ່ງເສີມຄວາມຫມັ້ນໃຈຕົນເອງແລະການສື່ສານ. ຂອບໃຈ..."
+    },
+    "aventurine": {
+      "image": "aventurine",
+      "name": "Aventurine",
+      "description": "Aventurine ເປັນກ້ອນຫີນຟື້ນຟູທີ່ເປັນຕົວແທນຂອງອິດສະລະພາບຂອງວິນຍານແລະຄວາມຫິວ ..."
+    },
+    "amazonite": {
+      "image": "amazonite",
+      "name": "Amazonite",
+      "description": "ສວຍງາມຄືກັບນ້ຳທະເລສີຟ້າຂຽວອ່ອນ, amazonite ແມ່ນພະລັງ..."
+    },
+    "dioptaze": {
+      "image": "dioptaze",
+      "name": "Dioptase",
+      "description": "Dioptase ເປັນແກນທີ່ແທ້ຈິງຂອງການສະຫນັບສະຫນູນແລະການຟື້ນຕົວ, ໂດຍສະເພາະສໍາລັບຫົວໃຈ."
+    },
+    "rhodonite": {
+      "image": "rhodonite",
+      "name": "Rhodonite",
+      "description": "ແນະນໍາສໍາລັບໄວລຸ້ນ, ແກນ rhodonite ກະຕຸ້ນການຮຽນຮູ້ແລະອະນຸຍາດໃຫ້ ..."
     }
   }
 }

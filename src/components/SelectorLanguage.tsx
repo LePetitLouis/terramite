@@ -40,7 +40,7 @@ export const SelectorLanguage = () => {
       <div className="selected-language" onClick={handleLanguageSelector}>
         <img
           className="language-selector__flag"
-          src={`images/${lang}.png`}
+          src={`images/flags/${lang}.png`}
           alt={`${lang} flag`}
         />
       </div>
@@ -54,7 +54,7 @@ export const SelectorLanguage = () => {
                   className={`language-selector__flag ${
                     language === lang ? "blur" : ""
                   }`}
-                  src={`images/${language}.png`}
+                  src={`images/flags/${language}.png`}
                   alt="french flag"
                   onClick={() => changeLanguage(language)}
                 />
